@@ -1,5 +1,3 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=157
-
 This plugin will automatically load cscope.out databases into vim when you open a C file. (headers included)
 
 It does a search starting at the directory that the file is in, and checking the parent directories until it find the cscope.out file.  The idea being that you can start editing a source file deep in a project dir, and it will find the correct cscope database a couple dirs up.
